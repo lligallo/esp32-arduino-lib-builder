@@ -1,0 +1,26 @@
+{
+    "name": "DevForApplicationServer",
+    "build" : {
+        "context" : "..",
+        "dockerfile": "./Dockerfile.dev"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": { 
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "remote.localPortHost": "allInterfaces"
+            },
+            "extensions": [
+                "streetsidesoftware.code-spell-checker",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "ms-toolsai.jupyter",
+                "ms-vsliveshare.vsliveshare",
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "ms-azuretools.vscode-docker",
+                "GitHub.copilot-chat"
+            ]
+        }
+    }
+}
